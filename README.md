@@ -29,8 +29,8 @@
 
 В качестве сервиса получения случайных картинок используется [TheCat](https://developers.thecatapi.com/view-account/ylX4blBYT9FaoVd6OhvR?report=bOoHBz-8t), позволяющий получить список случайных изображений.
 
-Представлены три варианта реализации задачи, находящиеся в ```kotlin app/src/main/java/otus/homework/coroutines/presentation```
+Представлены три варианта реализации задачи, находящиеся в ```app/src/main/java/otus/homework/coroutines/presentation```
 
-1. ```kotlin /mvp``` - реализация *custom view* на основе презентера
-2. ```kotlin /mvvm``` - реализация *custom view* на основе ```kotlin ViewModel```
-3. ```kotlin /mvvm/owners``` - реализация *custom view* на основе ```kotlin ViewModel``` и *custom* ```kotlin ViewModelStoreOwner, LifecycleOwner```
+1. ```/mvp``` - реализация *custom view* на основе презентера
+2. ```/mvvm``` - реализация *custom view* на основе ```ViewModel```
+3. ```/mvvm/owners``` - реализация *custom view* на основе ```ViewModel``` и *custom* ```ViewModelStoreOwner, LifecycleOwner```
